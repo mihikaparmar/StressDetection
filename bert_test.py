@@ -41,6 +41,6 @@ def train_and_evaluate_with_bert(df, text_column, label_column):
     return accuracy
 
 # Example usage:
-df = pd.read_csv('D:\StressDetection\merged_data_with_clean_text.csv')
+df = pd.read_csv(r'C:\Users\DELL\Desktop\FinalYear\StressDetection\merged_data_with_clean_text.csv')
 accuracy = train_and_evaluate_with_bert(df, 'clean_text', 'label')
 print("Accuracy:", accuracy)
