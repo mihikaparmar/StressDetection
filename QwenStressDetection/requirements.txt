@@ -1,0 +1,6 @@
+pytesseract
+Pillow
+transformers
+torch
+deepface
+scikit-learn
